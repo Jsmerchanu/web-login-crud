@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="css/styles.css">
+    <link rel="Stylesheet" href="css/login.css">
+       
+    <title>JS COMPONENTES</title>
+</head>
+<body >    
+    <header>
+        <h1>JS COMPONENTES</h1>
+    </header>
+    <center>              
+    <nav class="barraNav">
+        <ul>
+            <li onclick="mostrarSeccion('seccion1')"><a href="#">Inicio</a></li>
+            <li onclick="mostrarSeccion('seccion2')"><a href="#">Quienes Somos</a></li>
+            <li onclick="mostrarSeccion('seccion3')"><a href="#">Productos</a></li>
+            <li onclick="mostrarSeccion('seccion4')"><a href="#">Contactenos</a></li>
+            <li onclick="mostrarSeccion('seccion5')"><a href="#">Inicio sesion</a></li>           
+             
+        </ul>
+    </nav>
+    </center>
+    <div class = "content">
+        <section id="seccion1">        
+            <div class="com">
+                <img class="img1" src = "imagenes/Core_i9-14900KS.jpg" alt = "Core-i9-14900ks">            
+            </div> 
+            <div id="amd" class="com">
+                <img class="img1" src = "imagenes/amd-ryzen-7-8700g.jpg" alt = "Core-i9-14900ks">            
+            </div> 
+            <div id="nv" class="com">
+                <img class="img1" src = "imagenes/4090.jpg" alt = "Core-i9-14900ks">            
+                <div id="txt1">
+                    <h2 id = "tx1">GeForce TRX 4090</h2>
+                    <p id="tx2">                    
+                        NVIDIA® GeForce RTX® 4090 es la GPU GeForce definitiva. Brinda un gran salto 
+                        en rendimiento, eficiencia y gráficos impulsados ​​​​por IA. Experimenta juegos de 
+                        rendimiento ultra alto, mundos virtuales increíblemente detallados, productividad 
+                        sin precedentes y nuevas formas de crear. Está impulsada por la arquitectura NVIDIA 
+                        Ada Lovelace y viene con 24 GB de memoria G6X para brindar la mejor experiencia para 
+                        jugadores y creadores.
+                    </p>
+                </div>
+                
+            </div> 
+            <div id="xtx" class="com">
+                <img id="imgamd" class="img1" src = "imagenes/radeon-7900-xtx.avif" alt = "Core-i9-14900ks">            
+                <div id="xtx1">
+                    <h2 id="txt">AMD Radeon RX 7900 XTX</h2>
+                    <p id="tx">                    
+                        Con la revolucionaria arquitectura AMD RDNA™ 3 con tecnología de chiplet como 
+                        piedra angular, las tarjetas gráficas AMD Radeon™ RX 7900 XTX te deslumbrarán 
+                        con su rendimiento, potencia visual y eficiencia de última generación en 4K y 
+                        resoluciones superiores.
+                    </p>
+                </div>
+                
+            </div> 
+        </section>
+    
+        <section id="seccion2">
+            <h2>Quienes Somos</h2>
+        <p>
+            La pagina se centra en informar sobre los componentes más 
+            recientes y relevantes para las computadoras personales (PC). 
+            Cubre una amplia gama de temas, desde los componentes internos 
+            como el procesador, disco duro, placa base y fuente de alimentación, 
+            hasta componentes externos como tarjetas gráficas y memoria RAM. 
+            Proporciona consejos sobre cómo seleccionar componentes para armar 
+            una PC eficiente y potente, así como información sobre las últimas 
+            tecnologías y tendencias en el mundo de la informática. Además, el 
+            blog ofrece guías paso a paso sobre cómo armar una PC para gaming y 
+            cómo entender los diferentes elementos de una placa base. Es una 
+            fuente útil para aquellos interesados en mantenerse al día con los 
+            avances en el mundo de los componentes de PC.
+        </p>
+        
+        
+    
+        </section>
+    <center>
+        <section id="seccion3">
+            <title>Productos</title>
+    </head>
+    <body>
+        <div class="product">
+            <img src="imagenes/6600.jpg" alt="Producto 1">
+            <h3>AMD Radeon™ RX serie 6600</h3>
+            <p> Dimensiones	267 mm × 120 mm × 40 mm
+                Fecha presentación	14 de octubre de 2021
+                PVPR	329 $
+                Ranuras PCIe	2.0
+                Interfaz	PCIe 4.0 ×8</p>
+        </div>
+        <div class="product">
+            <img src="imagenes/i5.jpg" alt="Producto 2">
+            <h3>Core™ i5-10400F</h3>
+            <p> Cantidad de núcleos 6.
+                Cantidad de subprocesos 12.
+                Frecuencia turbo máxima 4.30 GHz.
+                Frecuencia de la Tecnología Intel® Turbo Boost 2.0‡ 4.30 GHz.
+                Frecuencia básica del procesador 2.90 GHz.</p>
+        </div>
+        <div class="product">
+            <img src="imagenes/ram.jpg" alt="Producto 3">
+            <h3>Memoria ram ddr4</h3>
+            <p> Capacidad Total 8GB.
+                Velocidad 3200Hz.
+                Tecnología DDR4 SDRAM.
+                CL(IDD) 22 ciclos.
+                Tiempo de ciclo de fila (tRCmin) 45,75 ns (mín.)</p>
+        </div>
+        <div class="product">
+            <img src="imagenes/h510.png" alt="Producto 4">
+            <h3>H510M H V2</h3>
+            <p> Supports 11th/10th Gen Intel® Core™ Processors
+                Dual Channel Non-ECC Unbuffered DDR4, 2 DIMMs
+                8-Channel HD Audio with High Quality Audio Capacitors
+                NVMe PCIe Gen3 x4 2280 M.2 Connector
+                GbE LAN with Bandwidth Management</p>
+        </div>
+        </section>
+    </center>
+        <section id="seccion4">               
+                    <form class="form4" action="include/contactenos.php" method="POST"  class="informacion__form flex flex--column">                   
+                        
+                        <h2 class="h24">Información de contacto</h2>
+
+                        <input id="input41"  type="text" placeholder="&#128100; Nombre" required name="Nombre" /><br>                
+                                                   
+                        <input id="input42" type="text" placeholder="&#128222; Teléfono" required name="Telefono"/><br>                   
+                                
+                        <input id="input43" type="text" placeholder="&#128231; Correo" required name="Correo"/><br>                    
+                                
+                        <input id="input44" type="text"  placeholder="&#128196; Mensaje" required name="Mensaje"></input><br>
+                            
+                        <input class="enviar4" type="submit" value="Enviar">
+                            
+                        <input class="borrar4" type="reset" name="_captcha" value="borrar">
+                                   
+                    </form>        
+        </section>
+    
+        <section id="seccion5">
+            <form class="form5" action="include/registrar.php" method="POST">
+                <h2 class="h25">Iniciar sesion</h2>
+                <input id="input51" type="text" placeholder="&#128273; Usuario" name="usuario" required>
+                <input id="input52" type="password" placeholder="&#128274; Contraseña" name="pass" required>
+                <input id="input53" class="ingresar5" type="submit" value="Ingresar" name="btningresar">
+            
+                <br>
+                <a class="crear" onclick="mostrarSeccion('seccion6')" style="float:right">crear un acuenta</a>
+                </form>
+        </section>
+
+        <section id="seccion6">
+            <form class="form6" action="include/registrar.php" method="POST">
+                <h2 class="h26">Crear una cuenta</h2>
+                <input id="input61" type="text" placeholder="&#128273; Usuario" name="usuario" required>
+                <input id="input62" type="password" placeholder="&#128274; Contraseña" name="pass" required>
+                <input id="input63" class="registrar6" type="submit" value="Registrar" name="btnregistrar">
+            
+                <br>
+                <a class="regresar" onclick="mostrarSeccion('seccion5')" style="float:right">Regresar</a>
+                </form>
+        </section>
+    </div>
+    <footer id="footer">
+        <ul >
+            
+            <li >Johan Sebastian Merchan Urrego</li>
+            
+            <li >jsmerchan1013@hotmail.com</li>
+            
+            <li >Tecnologia aplicada 55550 </li>
+            
+        </ul>
+    </footer>    
+    <script src="js/Secciones.js"></script>
+    <script src="js/AjustarFooter.js"></script>    
+    <script> 
+    adjustFooterPosition()
+    mostrarSeccion('seccion1')    
+    </script>
+</body>
+
+</html>
